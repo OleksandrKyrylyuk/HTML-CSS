@@ -1,0 +1,201 @@
+h1, h2, h3, h4, h5, h6, ul, body, li, p, a, span {
+    margin: 0;
+    padding: 0;
+}
+ //Base TEXT
+h1 {
+    font-size: 35px;
+    font-family: 'PoppinsB';
+    color: $bGreyD3;
+    text-align: center;
+    
+}
+
+h2 {
+    font-size: 33px;
+    font-family: 'PoppinsMED';
+    color: $bGreyD2;
+    text-align: center;
+}
+
+h3 {
+    font-size: 27px;
+    font-family: 'PoppinsN';
+    color: $bGreyD3;
+    text-align: center;
+}
+
+h4 {
+    font-size: 22px;
+    font-family: 'PoppinsN';
+    color: $bGreyD3;
+    text-align: center;
+}
+
+h5 {
+    font-size: 17px;
+    font-family: 'PoppinsMED';
+    color: $bGreyD3;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h6 {
+    font-size: 15px;
+    font-family: 'PoppinsN';
+    color: $bGreyD3;
+    text-align: center;
+}
+
+p {
+    font-size: 15px;
+    font-family: 'PoppinsR';
+    color: $bGreyD1;
+}
+
+//Battons
+
+.btnSB {
+    width: 100px;
+    height: 40px;
+    background-color: $bBlueD3;
+    border: none;
+    border-radius: 2px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: 'PoppinsB';
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+}
+
+.btnSB:hover {
+    width: 100px;
+    height: 40px;
+    background-color: $bBlueL1;
+    border: none;
+    border-radius: 2px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: 'PoppinsB';
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+.btnSO {
+    width: 100px;
+    height: 40px;
+    background-color: $bOrange;
+    border: none;
+    border-radius: 2px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: 'PoppinsB';
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.btnSO:hover {
+    width: 100px;
+    height: 40px;
+    background-color: $bOrangeL1;
+    border: none;
+    border-radius: 2px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: 'PoppinsB';
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.btnMO {
+    margin: 30px 0;
+    width: 220px;
+    height: 50px;
+    background-color: $bOrange;
+    border: none;
+    border-radius: 2px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: 'PoppinsB';
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.btnMO:hover {
+    margin: 30px 0;
+    width: 220px;
+    height: 50px;
+    background-color: $bOrangeL1;
+    border: none;
+    border-radius: 2px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: 'PoppinsB';
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.btnMB {
+    width: 200px;
+    height: 50px;
+    background-color: $bBlueD1;
+    border: none;
+    border-radius: 2px;
+    font-size: 14px;
+    font-family: 'PoppinsN';
+    font-weight: 500;
+    color: white;
+    cursor: pointer;
+}
+
+.btnMB:hover {
+    width: 200px;
+    height: 50px;
+    background-color: $bBlueL1;
+    border: none;
+    border-radius: 2px;
+    font-size: 14px;
+    font-family: 'PoppinsN';
+    font-weight: 500;
+    color: white;
+    cursor: pointer;
+}
+
+.btnLB {
+    margin-top: 50px;
+    width: 280px;
+    height: 50px;
+    background-color: $bBlueD1;
+    border: none;
+    border-radius: 2px;
+    font-size: 14px;
+    font-family: 'PoppinsN';
+    font-weight: 500;
+    color: white;
+    cursor: pointer;
+}
+
+.btnLB:hover {
+    width: 280px;
+    height: 50px;
+    background-color: $bBlueL1;
+    border: none;
+    border-radius: 2px;
+    font-size: 14px;
+    font-family: 'PoppinsN';
+    font-weight: 500;
+    color: white;
+    cursor: pointer;
+}

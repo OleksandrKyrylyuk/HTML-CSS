@@ -1,0 +1,61 @@
+.step {
+    margin: 120px 0;
+}
+.step h2 {
+    margin-bottom: 65px;
+}
+
+.step img{
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    
+}
+
+.step p {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.d28 {
+    height: 2px; 
+    width: 30px; 
+    position: absolute;
+    transform: rotate(270deg);
+    left: 283px;
+    bottom: 93px;
+}
+.d28:before, 
+.d28:after {
+    content: "";
+    height: 100%; 
+    width: 50%;
+    position: absolute; 
+    top: 0;
+    background: $bBlueL2;
+}
+.d28:before {
+    left: 0;
+    transform: skew(0deg, 40deg);
+}
+.d28:after {
+    right: 0;
+    transform: skew(0deg, -40deg);
+}
+
+.d28-line-top {
+    position: absolute;
+    top: 32px;
+    left: 291px;
+    width: 2px;
+    height: 75px;
+    background: $bBlueL2;
+}
+.d28-line-bottom {
+    position: absolute;
+    top: 134px;
+    left: 291px;
+    width: 2px;
+    height: 75px;
+    background: $bBlueL2;
+}

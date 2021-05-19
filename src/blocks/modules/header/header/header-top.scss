@@ -1,0 +1,107 @@
+.header-top{
+   background-color: $bBlue;
+   padding: 25px 0;
+}
+// Label site
+.logo img {
+   margin-right: 10px;
+    width: 61px;
+    height: 61px;
+    
+}
+.logo h1 {
+    font-family: 'PoppinsN';
+    font-style: italic;
+    font-weight: 100;
+    color: white;
+    text-transform: none;
+    padding-bottom: 0;
+}
+
+.logo span:nth-child(1){
+    color:yellow;
+    font-style: normal;
+    font-weight: bold;
+} 
+
+.logo span:nth-child(2){
+    font-size: 18px;
+    font-style: normal;
+} 
+
+.logo span:nth-child(5){
+    font-size: 12px;
+    font-family: 'Open SansN';
+    font-style: normal;
+} 
+.logo p{
+    font-size: 12px;
+    font-family: 'Open SansN';
+    font-style: normal;
+    color: white;
+    text-align: left;
+   
+}
+// Dropdown memu +  buttons
+.header-top a {
+    float: left;
+    font-size: 12px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+
+.dropdown .dropbtn {
+    border: none;
+    color: white;
+    font-size: 12px;
+    background-color: inherit;
+    text-transform: uppercase;
+    font-family: 'PoppinsB';
+    font-weight: 500;
+    cursor: pointer;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+
+  .dropdown-content a:hover {
+    background-color: $bBlue;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+.mobile-img{
+   color: white;
+   font-size: 30px;   
+}
+
+.menu-icon {
+  width: 35px;
+  height: 5px;
+  background-color: white;
+  margin: 6px 0;
+}
+

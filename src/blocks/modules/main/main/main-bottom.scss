@@ -1,0 +1,78 @@
+.main-bottom img{
+    display: block;
+    margin: 0 auto;
+}
+.main-bottom h2 {
+    padding: 320px 0 50px 0;
+}
+.main-bottom p {
+    padding: 35px 250px;
+    text-align: center;
+}
+
+.carousel-item span:nth-of-type(1){
+    display: block;
+    text-align: center;
+    font-family: 'PoppinsN';
+    font-weight: bold;
+    color: $bBlue;
+}
+.carousel-item span:nth-of-type(2){
+    display: block;
+    text-align: center;
+    font-family: 'PoppinsN';
+    color: $bGrey;
+    padding-bottom: 70px;
+}
+
+.d28arrow {
+    height: 4px; 
+    width: 30px; 
+    position: absolute;
+    transform: rotate(270deg);
+   
+}
+.d28arrow:before, 
+.d28arrow:after {
+    content: "";
+    height: 100%; 
+    width: 50%;
+    position: absolute; 
+   
+    background: $bBlue;
+}
+.d28arrow:before {
+    left: 0;
+    transform: skew(0deg, 40deg);
+}
+.d28arrow:after {
+    right: 0;
+    transform: skew(0deg, -40deg);
+}
+
+.d281arrow {
+    height: 4px; 
+    width: 30px; 
+    position: absolute;
+    transform: rotate(90deg);
+    
+}
+.d281arrow:before, 
+.d281arrow:after {
+    content: "";
+    height: 100%; 
+    width: 50%;
+    position: absolute; 
+    top: 0;
+    background: $bBlue;
+}
+.d281arrow:before {
+    left: 0;
+    transform: skew(0deg, 40deg);
+}
+.d281arrow:after {
+    right: 0;
+    transform: skew(0deg, -40deg);
+}
+
+

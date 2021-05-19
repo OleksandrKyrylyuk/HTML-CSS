@@ -1,0 +1,39 @@
+.main-center {
+    background: $bBlue url(../../../../img/icons_transparent.png) no-repeat;
+    background-size: cover;
+    padding: 90px 0;
+}
+
+.main-center h2 {
+    padding-bottom: 70px;
+    color: white;
+}
+
+.main-center h5 {
+    padding-bottom: 24px;
+}
+
+.main-center img{
+    padding-bottom: 30px;
+    width:85px ;
+}
+
+.main-center article:nth-of-type(1) {
+    background-color: #fff;
+    text-align: center;
+    margin-right: 30px;
+    padding: 40px;
+}
+
+.main-center article:nth-of-type(2) {
+    background-color: #fff;
+    text-align: center;
+    margin-right: 30px;
+    padding: 40px;
+}
+
+.main-center article:nth-of-type(3) {
+    background-color: #fff;
+    text-align: center;
+    padding: 40px;
+}

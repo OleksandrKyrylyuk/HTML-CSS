@@ -1,0 +1,141 @@
+.discount-form {
+    position: absolute;
+    top: 2900px;
+}
+
+.discount-form .col-6{
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2 ,1fr);
+    box-shadow: 4px 4px 30px rgba(202,202,202,0.55);
+    
+}
+
+.discount-form .col-6 div:nth-child(1){
+    border-right: 1px solid $bGreyL3;
+    border-bottom: 1px solid $bGreyL3;
+    padding: 45px;
+}
+
+.discount-form .col-6 div:nth-child(2){
+    border-left: 1px solid $bGreyL3;
+    border-bottom: 1px solid $bGreyL3;
+    padding: 45px;
+}
+
+.discount-form .col-6 div:nth-child(3){
+    border-top: 1px solid $bGreyL3;
+    border-right: 1px solid $bGreyL3;
+    padding: 45px;
+}
+
+.discount-form .col-6 div:nth-child(4){
+    border-top: 1px solid $bGreyL3;
+    border-left: 1px solid $bGreyL3;
+    padding: 45px;
+}
+
+.discount-form .off span:nth-of-type(1){
+    display: block;
+    text-align: center;
+    font-size: 35px;
+    font-family: 'PoppinsB';
+    text-transform: uppercase;
+    color: $bOrange;
+}
+
+.discount-form .off span:nth-of-type(2){
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    font-family: 'PoppinsN';
+    color: $bGrey;
+}
+
+.discount-form .off span:nth-of-type(3){
+    display: block;
+    text-align: center;
+    font-size: 17px;
+    font-family: 'PoppinsN';
+    color: $bBlue;
+    font-weight: bold;
+}
+
+.ballon {
+    background-color: $bBlue;
+    padding: 10px;
+}
+
+.ballon>div {
+    margin: 20px;
+    border: 2px dashed $bBlueD1;
+    border-radius: 10px;
+}
+
+.ballon h3 {
+    font-family: 'PoppinsN';
+    font-weight: bold;
+    color: white;
+    font-size: 25px;
+    padding: 30px 0 40px 0;
+}
+
+.ballon p span:nth-of-type(1) {
+    font-family: 'PoppinsMED';
+    font-size: 24px;
+    color: white;
+    text-align-last: left;
+}
+
+.ballon p span:nth-of-type(2){
+    display: block;
+    font-family: 'PoppinsN';
+    color: $bYellow;
+    font-size: 61px;
+    font-weight: 600;
+    line-height: 1;
+    text-align: center;
+}
+
+.ballon p span:nth-of-type(3){
+    display: block;
+    font-family: 'PoppinsMED';
+    color: white;
+    font-size: 14px;
+    text-align: center;
+}
+
+.ballon p:nth-of-type(1) {
+    background-color: $bBlueD1;
+    margin: 0 35px;
+    padding: 30px 20px;
+    border: 2px dashed white;
+    border-radius: 10px;
+}
+
+.ballon p:nth-of-type(2){
+    color: white;
+    font-family: 'Open SansI';
+    font-size: 18px;
+    text-align: center;
+    padding: 55px 0 40px 0;
+}
+
+.scissors {
+    position: absolute;
+    top:150px;
+    left: 52px;
+}
+
+.stars {
+    position: absolute;
+    top: 150px;
+    left: 240px;
+}
+
+.ballon-img {
+    position: absolute;
+    top: 380px;
+    left: 300px;
+}

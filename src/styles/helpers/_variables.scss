@@ -1,0 +1,32 @@
+// Colours
+$bBlue:#03a9f4;
+    $bBlueL3:mix($bBlue, #fff, 10%);
+    $bBlueL2:mix($bBlue, #fff, 25%);
+    $bBlueL1:mix($bBlue, #fff, 60%);
+    $bBlueD1:mix($bBlue, #000, 80%);
+    $bBlueD2:mix($bBlue, #000, 50%);
+    $bBlueD3:mix($bBlue, #000, 30%);
+
+$bOrange:#f75e2e;
+    $bOrangeL1:mix($bOrange,#fff,60%);
+    $bOrangeL2:mix($bOrange,#fff,25%);
+    $bOrangeL3:mix($bOrange,#fff,10%);
+    $bOrangeD1:mix($bOrange,#000,80%);
+    $bOrangeD2:mix($bOrange,#000,50%);
+    $bOrangeD3:mix($bOrange,#000,30%);
+
+$bYellow:#ecfa4d;
+    $bYellowL1:mix($bYellow,#fff,60%);
+    $bYellowL2:mix($bYellow,#fff,25%);
+    $bYellowL3:mix($bYellow,#fff,10%);
+    $bYellowD1:mix($bYellow,#000,80%);
+    $bYellowD2:mix($bYellow,#000,50%);
+    $bYellowD3:mix($bYellow,#000,30%);
+
+$bGrey:#656a70;
+    $bGreyL1:mix($bGrey,#fff,40%);
+    $bGreyL2:mix($bGrey,#fff,25%);
+    $bGreyL3:mix($bGrey,#fff,10%);
+    $bGreyD1:mix($bGrey,#000,80%);
+    $bGreyD2:mix($bGrey,#000,50%);
+    $bGreyD3:mix($bGrey,#000,30%);

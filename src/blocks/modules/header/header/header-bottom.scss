@@ -1,0 +1,27 @@
+.header-bottom {
+    background: $bBlueL3 url(../../../../img/img_cloud.png) no-repeat;
+    background-size: cover;
+}
+.header-bottom h1 {
+    padding-top: 150px;
+    text-align: left;
+}
+.header-bottom h1>span {
+    color: $bBlue;
+}
+
+.header-bottom hr {
+    margin: 45px 350px 45px 0;
+    
+}
+.header-bottom img {
+    
+    padding-top: 100px;
+    padding-bottom: 70px;
+    
+}
+
+.header-bottom .col-4 {
+position: relative;
+z-index: 2;
+}

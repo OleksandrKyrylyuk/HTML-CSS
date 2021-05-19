@@ -1,0 +1,29 @@
+.main-form {
+    position: absolute;
+    top:665px;
+    z-index: 1;
+}
+
+
+.main-form form {
+    background-color: $bBlue;
+    padding: 35px;
+}
+
+.main-form select,
+.main-form input {
+    border: solid $bGrey 2px;
+    width: 190px;
+    height: 50px;
+    color: $bGrey;
+    padding-left: 10px;
+}
+
+.main-form label {
+    font-family: 'PoppinsN';
+    font-weight: 300;
+    font-size: 13px;
+    color: white;
+}
+
+
